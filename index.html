@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rumble Dashboard Project</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0b3148; /* Secondary Color */
+            color: #ffffff;
+            text-align: center;
+        }
+        header {
+            background-color: #85c742; /* Primary Color */
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            color: #0b3148; /* Secondary Color for contrast */
+        }
+        section {
+            margin: 50px auto;
+            width: 80%;
+            max-width: 1200px;
+        }
+        .description {
+            background-color: #ffffff;
+            color: #0b3148; /* Secondary Color */
+            padding: 30px;
+            border-radius: 8px;
+        }
+        .description h2 {
+            color: #85c742; /* Primary Color */
+        }
+        .image-section {
+            margin-top: 40px;
+        }
+        .image-section img {
+            max-width: 100%;
+            height: auto;
+            border: 5px solid #85c742; /* Primary Color */
+            border-radius: 8px;
+        }
+        .donate-section {
+            margin-top: 50px;
+        }
+        .donate-section button {
+            background-color: #85c742; /* Primary Color */
+            color: #ffffff;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .donate-section button:hover {
+            background-color: #76b236; /* Darker shade of Primary Color */
+        }
+        footer {
+            margin-top: 100px;
+            padding: 20px;
+            background-color: #0b3148;
+            color: #85c742;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Rumble Dashboard Project</h1>
+    </header>
+
+    <section class="description">
+        <h2>About the Project</h2>
+        <p>The Rumble Dashboard project is designed to help Rumble content creators track and manage their audience growth. The platform provides a real-time interface to monitor followers and subscribers, enabling creators to set personal goals and visualize progress through live data.</p>
+        <p>By integrating directly with the Rumble API, this dashboard allows creators to easily track their performance and display it on their streams or videos using customizable widgets. Whether you're growing your community or monitoring your engagement, the Rumble Dashboard is here to assist you in your journey.</p>
+        <p>Key features include:</p>
+        <ul>
+            <li>Real-time tracking of followers and subscribers</li>
+            <li>Personalized goal setting for growth tracking</li>
+            <li>Customizable progress bars for visualizing your progress</li>
+            <li>Easy-to-use interface with direct Rumble API integration</li>
+        </ul>
+    </section>
+
+    <section class="image-section">
+        <h2>Project Showcase</h2>
+        <img src="dashboardimage.png" alt="Rumble Dashboard UI Image">
+    </section>
+
+    <section class="donate-section">
+        <h2>Support the Project</h2>
+        <p>If you find this project useful and would like to help it grow, consider making a donation. Your support allows us to continue improving and adding new features for Rumble creators everywhere.</p>
+        <!-- PayPal Donate Button -->
+        <form action="https://www.paypal.com/donate" method="post" target="_top">
+            <input type="hidden" name="business" value="praisegames1103@gmail.com">
+            <input type="hidden" name="no_recurring" value="0">
+            <input type="hidden" name="item_name" value="Support the Rumble Dashboard Project">
+            <input type="hidden" name="currency_code" value="USD">
+            <button type="submit">Donate with PayPal</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Thank you for visiting the Rumble Dashboard Project! Your support is appreciated.</p>
+    </footer>
+
+</body>
+</html>
